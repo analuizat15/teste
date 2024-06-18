@@ -4,10 +4,10 @@
 }
 
 :root{
-    --branco-letra: ;
-    --cor-fundo: ;
-    --cor-cabecalho: ;
-    --titulo-principal: ;
+    --preto-letra:#000000;
+    --cor-fundo:rgb(255, 215, 104);
+    --cor-cabecalho:rgb(255, 203, 61);
+    --titulo-principal: 75px;
     --titulos: ;
     --texto: ; 
     --margem-principal: ;
@@ -26,4 +26,21 @@
 
 .logo{
     width: 90px;
+}
+
+.lista0{
+    text-decoration: none;
+    color:var(--preto-letra);
+}
+
+.lista1{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 12px 0;
+    font-size: 20px;
+}
+
+.titulo-central{
+    text-align: center;
+    font-size: var(--titulo-principal);
 }
