@@ -8,7 +8,7 @@
     --cor-fundo:rgb(0, 0, 0);
     --cor-cabecalho:rgb(255, 203, 61);
     --titulo-principal: 75px;
-    --titulos: 50px;
+    --titulos: 40px;
     --texto: 20px; 
     --margem-principal: 40px;
 }
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
     margin-bottom: 0;
     position: relative;
     top: 100%;
