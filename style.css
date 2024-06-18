@@ -4,13 +4,13 @@
 }
 
 :root{
-    --preto-letra:#000000;
-    --cor-fundo:rgb(255, 215, 104);
+    --branco-letra:#ffffff;
+    --cor-fundo:rgb(0, 0, 0);
     --cor-cabecalho:rgb(255, 203, 61);
     --titulo-principal: 75px;
-    --titulos: ;
-    --texto: ; 
-    --margem-principal: ;
+    --titulos: 50px;
+    --texto: 20px; 
+    --margem-principal: 40px;
 }
 
 .cabecalho{
@@ -30,7 +30,7 @@
 
 .lista0{
     text-decoration: none;
-    color:var(--preto-letra);
+    color: #000;
 }
 
 .lista1{
@@ -43,4 +43,16 @@
 .titulo-central{
     text-align: center;
     font-size: var(--titulo-principal);
+}
+
+.titulos{
+    font-size: var(--titulos);
+    margin: var(--margem-principal);
+    text-align: center;
+}
+
+.textos{
+    text-align: justify;
+    margin: var(--margem-principal);
+    font-size: var(--texto);
 }
