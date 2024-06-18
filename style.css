@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --branco-letra: ;
+    --cor-fundo: ;
+    --cor-cabecalho: ;
+    --titulo-principal: ;
+    --titulos: ;
+    --texto: ; 
+    --margem-principal: ;
+}
+
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+    margin-bottom: 0;
+    position: relative;
+    top: 100%;
+}
+
+.logo{
+    width: 90px;
+}
