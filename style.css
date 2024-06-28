@@ -43,9 +43,11 @@
 .botao{
     width: 50%;
     height: 50%;
-    text-align: justify;
+    display: flex;
     font-size: 30%;
-    color: #000;
+    color: #ffffff;
+    background-color: #000;
+    
     
 }
 
