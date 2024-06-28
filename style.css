@@ -40,6 +40,13 @@
     font-size: 20px;
 }
 
+.botao{
+    width: 20%;
+    height: 20%;
+    text-align: justify;
+    font-size: 10%;
+}
+
 .titulo-central{
     text-align: center;
     font-size: var(--titulo-principal);
