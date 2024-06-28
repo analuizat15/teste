@@ -98,6 +98,7 @@
 
 footer{
     width: 100%;
-    height: 25px;
+    height: 30%;
     background-color: var(--cor-cabecalho);
+    text-align: center;
 }
