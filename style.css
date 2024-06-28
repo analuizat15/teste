@@ -49,6 +49,7 @@
 .botao1{
     display: flex;
     background-color: #000;
+    text-align: center;
 }
 
 .botao2{
