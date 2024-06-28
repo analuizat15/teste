@@ -41,7 +41,16 @@
     text-decoration: none;
 }
 
-.botao{
+.texto-lista{
+    text-decoration: none;
+    color: #000;
+}
+
+.botao1{
+    display: flex;
+}
+
+.botao2{
     padding: 6px, 20px;
     border: none;
     background-color: #000;
