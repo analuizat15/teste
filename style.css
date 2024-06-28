@@ -38,18 +38,17 @@
     margin: 0 16px;
     padding: 12px 0;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .botao{
-    width: 50%;
-    height: 50%;
-    display: flex;
-    font-size: 30%;
-    color: #ffffff;
+    padding: 6px, 20px;
+    border: none;
     background-color: #000;
-    border-radius: 5%;
-    
+    color: var(--branco-letra);   
+    display: block;
 }
+
 
 .titulo-central{
     text-align: center;
