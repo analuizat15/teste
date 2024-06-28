@@ -60,3 +60,7 @@
 .polo{
     display: flex;
 }
+
+.imagem{
+    margin: var(--margem-principal);
+}
